@@ -1,5 +1,16 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   height: 5.2rem;
   color: var(--color-brand--2);
   text-decoration: none !important;
+}
+
+.logoText {
+  font-size: 3rem;
+  color: var(--color-light--2);
+  margin-left: 1rem;
 }

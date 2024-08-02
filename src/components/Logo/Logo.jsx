@@ -3,8 +3,9 @@ import styles from "./Logo.module.css";
 
 function Logo() {
   return (
-    <Link to="/">
-      <h1 className={styles.logo}>TravelNotes</h1>
+    <Link to="/" className={styles.logoContainer}>
+      <img src="/icon.png" alt="WorldWise logo" className={styles.logo} />
+      <span className={styles.logoText}>TravelNotes</span>
     </Link>
   );
 }
